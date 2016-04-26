@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	vertical-align: baseline;
+}
+
+@font-face {
+	font-family: "Cabrito";
+	src: url("fonts/7b10ec911fbdba7037ee07a7af19718d.eot");
+	src: url("fonts/7b10ec911fbdba7037ee07a7af19718d.eot?#iefix") format("embedded-opentype"), url("fonts/7b10ec911fbdba7037ee07a7af19718d.woff2") format("woff2"), url("fonts/7b10ec911fbdba7037ee07a7af19718d.woff") format("woff"), url("fonts/7b10ec911fbdba7037ee07a7af19718d.ttf") format("truetype"), url("fonts/7b10ec911fbdba7037ee07a7af19718d.svg#Cabrito Sans W01 Ext Medium") format("svg");
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	background-color: #39C2D7;
+	font-family: "Cabrito";
+	color: #414041;
+	font-size-adjust: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+#content {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#content #logo img {
+	max-width: 90%;
+}
+
+#content #texto {
+	display: block;
+	clear: both;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 0.6em;
+}
+
+#content #sociais {
+	text-align: center;
+}
+
+#content #sociais a {
+	color: #414041;
+	font-size: 3em;
+	padding: 0.5em;
+}
+
+#footer {
+	margin-top: 0.5em;
+}
+
+#footer address {
+	font-style: normal;
+	font-size: 10pt;
+}
